@@ -25,19 +25,7 @@ while badInput:
     if userInput < 0:
         print("Error: Number must be positive")
         continue
-    # if isinstance(userInput, int):
-    #     pass
-    # else:
-    #     print("Error: Not an integer")
-    #     continue
 
-    # try:
-    #     value = int(userInput)
-    # except ValueError:
-    #     print("Error: Not an integer")
-    #     continue
-    # else:
-    #     pass
     # Is the number less than 20?
     if userInput < 20:
         badInput = False
